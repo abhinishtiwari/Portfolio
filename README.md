@@ -1,12 +1,12 @@
 # Portfolio
 This is my portfolio
-portfolio-website/
-├── index.html               # Main HTML file
-├── about.html               # About Me page
-├── projects.html            # Projects page
-├── contact.html             # Contact page
-├── assets/                  # Folder for all assets
-│   ├── css/                 # Folder for CSS files
+portfolio-website /n
+├── index.html               # Main HTML file /n
+├── about.html               # About Me page /n
+├── projects.html            # Projects page /n
+├── contact.html             # Contact page /n
+├── assets/                  # Folder for all assets /n
+│   ├── css/                 # Folder for CSS files /n
 │   │   ├── style.css        # Main CSS file
 │   ├── js/                  # Folder for JavaScript files
 │   │   ├── script.js        # Main JavaScript file
