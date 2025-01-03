@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Abhinish Tiwari</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #f1f1f1;
+        }
+        nav {
+            background-color: #1f1f1f;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+        }
+        nav a {
+            color: #00adb5;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #f1f1f1;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #1f1f1f;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+            flex-direction: column;
+        }
+        .content {
+            display: flex;
+            width: 100%;
+        }
+        .left-column {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .profile-picture {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .right-column {
+            flex: 2;
+        }
+        .headline {
+            font-size: 2.5em;
+            color: #00adb5;
+            margin-bottom: 10px;
+        }
+        .bio {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .personal-details {
+            margin-bottom: 20px;
+        }
+        .detail {
+            margin: 10px 0;
+            font-size: 1em;
+        }
+        .detail span {
+            margin-left: 10px;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+        .skills {
+            margin-top: 20px;
+        }
+        .footer {
+            width: 100%;
+            padding: 20px;
+            background-color: #1f1f1f;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #00adb5;
+            font-size: 1.5em;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .headline {
+                font-size: 2em;
+            }
+            .bio {
+                font-size: 1em;
+            }
+            nav a {
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .headline {
+                font-size: 1.5em;
+            }
+            .bio {
+                font-size: 0.9em;
+            }
+            nav a {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="articles.html">Articles</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <div class="left-column">
+                <img src="IMG20240309164704.jpg" alt="Profile Picture" class="profile-picture">
+            </div>
+            <div class="right-column">
+                <h1 class="headline">Abhinish Tiwari</h1>
+                <div class="personal-details">
+                    <div class="detail"><i class="fas fa-calendar-alt"></i><strong>Age:</strong> 22</div>
+                    <div class="detail"><i class="fas fa-birthday-cake"></i><strong>Date of Birth:</strong> 15-12-2002</div>
+                    <div class="detail"><i class="fas fa-map-marker-alt"></i><strong>City:</strong> Satna, MP</div>
+                    <div class="detail"><i class="fas fa-university"></i><strong>University:</strong> RGPV</div>
+                    <div class="detail"><i class="fas fa-envelope"></i><strong>Email:</strong> <a href="mailto:abhinishtiwari02@gmail.com">abhinishtiwari02@gmail.com</a></div>
+                    <div class="detail"><i class="fab fa-linkedin"></i><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/abhinish-tiwari-945914260/" target="_blank">LinkedIn Profile</a></div>
+                    <div class="detail"><i class="fas fa-graduation-cap"></i><strong>Degree:</strong> Bachelor of Technology (B.Tech)</div>
+                </div>
+                <h2>Brief Introduction</h2>
+                <p>As an aspiring Data Scientist with a BTech in Computer Science from VITS College, I am passionate about leveraging AI and machine learning to solve complex problems. I have experience in building machine learning models and creating interactive dashboards, utilizing tools such as Pandas, NumPy, TensorFlow, and Keras.</p>
+                <p>I am the founder of Abhi AI Dynamics, a freelancing company where I strive to deliver innovative solutions in the tech space. I also create engaging content on YouTube and LinkedIn, aiming to educate and connect with fellow enthusiasts.</p>
+                <p>With a strong foundation in programming languages like Python, C, and Java, I have developed applications that combine attractive UI/UX design with powerful backend functionality. My journey is fueled by a commitment to continuous learning and a desire to explore new frontiers in technology.</p>
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming Languages: Python, C, Java</li>
+                    <li>Data Science & AI Tools: Pandas, NumPy, Scikit-Learn, TensorFlow, Keras</li>
+                    <li>Web Technologies: HTML, CSS, JavaScript</li>
+                    <li>Frameworks & Tools: Flask, UI Development, Web Development</li>
+                    <li>Databases: MySQL, PostgreSQL</li>
+                    <li>Cloud & Data Tools: Azure AI, Jupyter Notebook</li>
+                </ul>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2024 Abhinish. All rights reserved.</p>
+            <p>Connect with me on:</p>
+            <div class="social-icons">
+                <a href="https://github.com/your-profile" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.youtube.com/your-channel" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/your-profile" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>Or follow my <a href="https://github.com/your-blog" target="_blank">blog</a> for more insights.</p>
+        </footer>
+    </div>
+</body>
+</html>
